@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 st.header('Heart Diseases Prediction Created By Cole')
 
-dg = pd.read_csv(r"C:\Users\HP\Documents\NEW COLE\heart-disease.csv")
+dg = pd.read_csv("heart-disease.csv")
 st.dataframe(dg)
 
 df = dg[['age',
